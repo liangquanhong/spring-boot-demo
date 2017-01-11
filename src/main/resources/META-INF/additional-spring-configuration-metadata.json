@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "giantor.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'giantor.secret'"
+  },
+  {
+    "name": "giantor.number",
+    "type": "java.lang.String",
+    "description": "A description for 'giantor.number'"
+  }
+]}

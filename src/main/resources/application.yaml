@@ -1,0 +1,43 @@
+#32位的随机数
+giantor:  
+  secret: ${random.value}
+  number: ${random.int}
+
+spring: 
+  profiles: 
+    active: dev
+  jackson: 
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Chongqing
+  output: 
+    ansi: 
+    enabled: DETECT
+    
+server: 
+  port: 8080
+  
+# 应用自定义配置
+logging: 
+  config: classpath:logback-giant.xml
+      
+---
+spring: 
+  profiles: test
+  
+server: 
+  port: 8081
+  
+---
+spring: 
+  profiles: dev
+  
+server: 
+  port: 8082
+  
+---
+spring: 
+  profiles: pro
+  
+server: 
+  port: 8083
+  
