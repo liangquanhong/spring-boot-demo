@@ -14,7 +14,7 @@ spring:
     enabled: DETECT
     
 server: 
-  port: 80
+  port: 8080
   
 # 应用自定义配置
 logging: 
