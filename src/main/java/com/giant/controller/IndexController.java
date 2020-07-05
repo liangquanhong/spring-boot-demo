@@ -42,6 +42,7 @@ public class IndexController {
 	@RequestMapping(value = "/get/{id}/{name}")
 	public User getUser(@PathVariable int id, @PathVariable String name) {
 		System.out.println("test");
+		System.out.println("testBranch");
 		User user = new User();
 		user.setId(id);
 		user.setName(name);
