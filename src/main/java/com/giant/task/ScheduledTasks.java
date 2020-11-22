@@ -14,6 +14,7 @@ public class ScheduledTasks {
     //@Scheduled(fixedRate = 5000)
 	@Scheduled(cron="*/5 * * * * *")
     public void reportCurrentTime() {
+		System.out.println("123456");
         System.out.println("当前时间：" + dateFormat.format(new Date()));
     }
 }
