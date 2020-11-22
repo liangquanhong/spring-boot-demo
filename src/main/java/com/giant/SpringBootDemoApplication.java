@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class SpringBootDemoApplication {
 
 	public static void main(String[] args) {
-		System.out.printle("Hello world20201122!");
+		System.out.printle("Hello world2020112203!");
 		SpringApplication.run(SpringBootDemoApplication.class, args);
 		System.out.printle("Good night!");
 	}
